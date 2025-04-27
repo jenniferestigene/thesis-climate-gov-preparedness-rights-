@@ -1,0 +1,229 @@
+---
+title: "Thesis Data Cleaning"
+author: Jennifer Estigene
+output: html_document
+date: "2025-04-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Installing Packages and Loading Libraries 
+```{r}
+install.packages("writexl")
+library(readxl)
+library(dplyr)
+library(writexl)
+```
+
+Loading the EM-DAT Excel File
+```{r}
+emdat <- read_excel("EMDAT_Disaster_Data.xlsx")
+
+print(head(emdat))
+
+n_distinct(emdat$Country)  # Total unique countries in full dataset
+```
+
+Group by ISO, Country, and Year to summarize impact 
+```{r}
+# Cleaning & creating binary variables
+emdat_filtered <- emdat %>%
+  mutate(
+    OFDA_Binary = ifelse(toupper(`OFDA/BHA Response`) == "YES", 1, 0),
+    Appeal_Binary = ifelse(toupper(Appeal) == "YES", 1, 0),
+    Declaration_Binary = ifelse(toupper(Declaration) == "YES", 1, 0)
+  )
+
+# Grouping and summarizing with binary counts
+emdat_summary <- emdat_filtered %>%
+  group_by(
+    ISO, Country, Year = `Start Year`,
+    Region, Subregion,
+    `Disaster Group`, `Disaster Subgroup`,
+    `Disaster Type`, `Disaster Subtype`
+  ) %>%
+  summarise(
+    Num_Disasters = n(),
+    Total_Deaths = sum(`Total Deaths`, na.rm = TRUE),
+    Total_Injured = sum(`No. Injured`, na.rm = TRUE),
+    Total_Affected = sum(`No. Affected`, na.rm = TRUE),
+    Total_Homeless = sum(`No. Homeless`, na.rm = TRUE),
+    Combined_Affected = sum(`Total Affected`, na.rm = TRUE),
+    Total_Damage_USD = sum(`Total Damage ('000 US$)`, na.rm = TRUE) * 1000,
+    Num_OFDA_BHA_Response = sum(OFDA_Binary, na.rm = TRUE),
+    Num_Appeals = sum(Appeal_Binary, na.rm = TRUE),
+    Num_Declarations = sum(Declaration_Binary, na.rm = TRUE),
+    Avg_Magnitude = mean(Magnitude, na.rm = TRUE),
+    Common_Magnitude_Scale = names(which.max(table(`Magnitude Scale`))),
+    .groups = 'drop'
+  )
+
+# Preview
+print(head(emdat_summary))
+
+n_distinct(emdat_summary$Country)  # Unique countries from 2000–2023 only
+```
+
+Worldwide Governance Indicators Dataset
+```{r}
+# Load WGI data 
+wgi_raw <- read_excel("wgidataset.xlsx")
+
+# Step-by-step cleaning and filtering
+wgi_clean <- wgi_raw %>%
+  rename(ISO = code) %>%
+  mutate(year = as.numeric(year)) %>%
+  filter(indicator == "ge") %>%
+  filter(year >= 2000, year <= 2023) %>%
+  rename(Year = year) %>%
+  select(ISO, Year, estimate) %>%
+  rename(Gov_Effectiveness_Estimate = estimate)
+
+# Checking what’s inside
+print(head(wgi_clean))
+```
+
+Merging EM-DAT and WGI Data
+```{r}
+emdat_wgi_data <- left_join(emdat_summary, wgi_clean, by = c("ISO", "Year"))
+```
+
+Adding Human Rights Risk Indicators 
+```{r}
+# Assign rights risk based on Disaster Subtype (priority), with fallback to Disaster Type
+emdat_wgi_data <- emdat_wgi_data %>%
+  mutate(
+    Rights_Violation_Risk = case_when(
+      # Disaster Subtype-specific assignments
+      `Disaster Subtype` == "Drought" ~ "High",
+      `Disaster Subtype` == "Ground movement" ~ "High",
+      `Disaster Subtype` == "Tsunami" ~ "High",
+      `Disaster Subtype` == "Heat wave" ~ "Medium",
+      `Disaster Subtype` == "Coastal flood" ~ "High",
+      `Disaster Subtype` == "Flash flood" ~ "High",
+      `Disaster Subtype` == "Flood (General)" ~ "High",
+      `Disaster Subtype` == "Riverine flood" ~ "High",
+      `Disaster Subtype` == "Hail" ~ "Low",
+      `Disaster Subtype` == "Lightning/Thunderstorms" ~ "Low-Medium",
+      `Disaster Subtype` == "Sand/Dust storm" ~ "Medium",
+      `Disaster Subtype` == "Tornado" ~ "Medium",
+      `Disaster Subtype` == "Tropical cyclone" ~ "High",
+      `Disaster Subtype` == "Wildfire (General)" ~ "Medium-High",
+
+      # Fallback to Disaster Type (if Subtype is missing)
+      `Disaster Type` == "Drought" ~ "High",
+      `Disaster Type` == "Earthquake" ~ "High",
+      `Disaster Type` == "Extreme temperature" ~ "Medium",
+      `Disaster Type` == "Flood" ~ "High",
+      `Disaster Type` == "Storm" ~ "High",  # General assumption
+      `Disaster Type` == "Wildfire" ~ "Medium-High",
+
+      TRUE ~ "Unclassified"
+    )
+  ) %>%
+  mutate(
+    Rights_Risk_Score = case_when(
+      Rights_Violation_Risk == "High" ~ 3,
+      Rights_Violation_Risk == "Medium-High" ~ 2.5,
+      Rights_Violation_Risk == "Medium" ~ 2,
+      Rights_Violation_Risk == "Low-Medium" ~ 1.5,
+      Rights_Violation_Risk == "Low" ~ 1,
+      TRUE ~ NA_real_
+    )
+  )
+```
+
+Imputing government effectiveness 
+```{r}
+# Ensuring the effectiveness column is numeric
+emdat_wgi_data <- emdat_wgi_data %>%
+  mutate(Gov_Effectiveness_Estimate = as.numeric(Gov_Effectiveness_Estimate))
+
+# Calculating subregion-level averages (excluding NAs)
+subregion_avg_gov <- emdat_wgi_data %>%
+  filter(!is.na(Gov_Effectiveness_Estimate)) %>%
+  group_by(Subregion) %>%
+  summarise(Subregion_Gov_Effectiveness = mean(Gov_Effectiveness_Estimate, na.rm = TRUE))
+
+# Joining the subregion averages back into your main dataset
+emdat_wgi_data <- emdat_wgi_data %>%
+  left_join(subregion_avg_gov, by = "Subregion") %>%
+  mutate(
+    # Creating a flag to mark imputing
+    Gov_Effectiveness_Imputed = if_else(is.na(Gov_Effectiveness_Estimate), 1L, 0L),
+
+    # Imputing missing values using subregion average
+    Gov_Effectiveness_Estimate = if_else(
+      is.na(Gov_Effectiveness_Estimate),
+      Subregion_Gov_Effectiveness,
+      Gov_Effectiveness_Estimate
+    )
+  ) %>%
+  select(-Subregion_Gov_Effectiveness)  # Clean up helper column
+```
+
+gov effectiveness NA's
+```{r}
+sum(is.na(emdat_wgi_data$Gov_Effectiveness_Estimate))
+
+emdat_wgi_data %>%
+  filter(is.na(Gov_Effectiveness_Estimate)) %>%
+  select(ISO, Country, Year)
+```
+
+disaster types NA's
+```{r}
+emdat_wgi_data %>%
+  filter(is.na(Rights_Violation_Risk)) %>%
+  count(`Disaster Type`)
+```
+
+```{r}
+# Make sure there are no missing values left
+sum(is.na(emdat_wgi_data$Gov_Effectiveness_Estimate))  # Should be 0
+
+# Check how many values were imputed
+sum(emdat_wgi_data$Gov_Effectiveness_Imputed == 1)
+```
+
+```{r}
+# Find countries that had no effectiveness data at all
+countries_no_wgi <- emdat_wgi_data %>%
+  group_by(ISO, Country) %>%
+  summarise(Has_WGI = all(is.na(Gov_Effectiveness_Estimate))) %>%
+  filter(Has_WGI == TRUE)
+
+# View the result
+print(countries_no_wgi)
+```
+
+```{r}
+countries_no_wgi$Country
+```
+
+
+```{r}
+sum(is.na(emdat_wgi_data$Rights_Violation_Risk))  # Should be 0 or very few
+sum(is.na(emdat_wgi_data$Rights_Risk_Score))      # Should match above
+```
+
+
+list of disaster types 
+```{r}
+emdat_wgi_data %>%
+  distinct(`Disaster Type`, `Disaster Subtype`) %>%
+  arrange(`Disaster Type`, `Disaster Subtype`)
+```
+
+
+
+Saving as files 
+```{r}
+write.csv(emdat_wgi_data, "emdat_wgi_rights.csv", row.names = FALSE)
+```
+
+```{r}
+write.csv(emdat_wgi_data, "emdat_wgi_cleaned.csv", row.names = FALSE)
+```
