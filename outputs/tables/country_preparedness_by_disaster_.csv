@@ -1,0 +1,620 @@
+Country,Disaster Type,Not Prepared,Prepared,Somewhat Prepared
+Afghanistan,Drought,0.83,0.0,0.17
+Afghanistan,Earthquake,0.23,0.54,0.23
+Afghanistan,Flood,0.0,0.31,0.69
+Albania,Earthquake,0.0,0.5,0.5
+Albania,Extreme temperature,0.0,0.5,0.5
+Albania,Flood,0.0,0.8,0.2
+Algeria,Earthquake,0.2,0.8,0.0
+Algeria,Extreme temperature,0.0,1.0,0.0
+Algeria,Flood,0.0,0.74,0.26
+Algeria,Wildfire,0.0,0.0,1.0
+American Samoa,Earthquake,0.0,1.0,0.0
+American Samoa,Flood,0.0,1.0,0.0
+American Samoa,Storm,0.0,0.5,0.5
+Angola,Drought,0.6,0.0,0.4
+Angola,Flood,0.04,0.4,0.56
+Anguilla,Storm,0.0,1.0,0.0
+Antigua and Barbuda,Storm,0.0,0.67,0.33
+Argentina,Drought,0.0,0.75,0.25
+Argentina,Earthquake,0.0,1.0,0.0
+Argentina,Flood,0.0,0.44,0.56
+Argentina,Storm,0.0,1.0,0.0
+Argentina,Wildfire,0.0,0.5,0.5
+Armenia,Drought,0.0,0.0,1.0
+Armenia,Flood,0.0,1.0,0.0
+Armenia,Storm,0.0,1.0,0.0
+Australia,Drought,0.0,1.0,0.0
+Australia,Extreme temperature,0.0,0.33,0.67
+Australia,Flood,0.0,0.92,0.08
+Australia,Storm,0.0,0.8,0.2
+Australia,Wildfire,0.0,1.0,0.0
+Austria,Extreme temperature,0.0,0.4,0.6
+Austria,Flood,0.0,0.86,0.14
+Austria,Storm,0.0,1.0,0.0
+Azerbaijan,Drought,0.0,1.0,0.0
+Azerbaijan,Earthquake,0.0,0.5,0.5
+Azerbaijan,Flood,0.0,0.33,0.67
+Bahamas,Flood,0.0,1.0,0.0
+Bahamas,Storm,0.0,0.91,0.09
+Bangladesh,Drought,0.0,1.0,0.0
+Bangladesh,Earthquake,0.0,1.0,0.0
+Bangladesh,Extreme temperature,0.0,0.5,0.5
+Bangladesh,Flood,0.65,0.03,0.32
+Bangladesh,Storm,0.35,0.23,0.42
+Barbados,Drought,0.0,1.0,0.0
+Barbados,Earthquake,0.0,1.0,0.0
+Barbados,Storm,0.0,1.0,0.0
+Belarus,Flood,0.0,0.5,0.5
+Belgium,Extreme temperature,0.25,0.12,0.62
+Belgium,Flood,0.12,0.88,0.0
+Belgium,Storm,0.0,1.0,0.0
+Belize,Flood,0.0,0.5,0.5
+Belize,Storm,0.0,0.67,0.33
+Benin,Flood,0.1,0.3,0.6
+Benin,Wildfire,0.0,1.0,0.0
+Bermuda,Storm,0.0,1.0,0.0
+Bhutan,Earthquake,0.0,1.0,0.0
+Bhutan,Flood,0.0,0.67,0.33
+Bhutan,Storm,0.0,1.0,0.0
+Bolivia (Plurinational State of),Drought,0.25,0.12,0.62
+Bolivia (Plurinational State of),Extreme temperature,0.0,1.0,0.0
+Bolivia (Plurinational State of),Flood,0.08,0.29,0.62
+Bolivia (Plurinational State of),Wildfire,0.0,1.0,0.0
+Bosnia and Herzegovina,Drought,0.0,0.5,0.5
+Bosnia and Herzegovina,Earthquake,0.0,1.0,0.0
+Bosnia and Herzegovina,Extreme temperature,0.0,1.0,0.0
+Bosnia and Herzegovina,Flood,0.08,0.69,0.23
+Botswana,Drought,0.0,0.33,0.67
+Botswana,Flood,0.0,0.86,0.14
+Botswana,Storm,0.0,1.0,0.0
+Brazil,Drought,0.42,0.5,0.08
+Brazil,Earthquake,0.0,1.0,0.0
+Brazil,Extreme temperature,0.0,1.0,0.0
+Brazil,Flood,0.21,0.35,0.44
+Brazil,Storm,0.0,0.4,0.6
+British Virgin Islands,Storm,0.0,1.0,0.0
+Bulgaria,Drought,0.0,1.0,0.0
+Bulgaria,Earthquake,0.0,1.0,0.0
+Bulgaria,Extreme temperature,0.5,0.5,0.0
+Bulgaria,Flood,0.0,0.92,0.08
+Bulgaria,Storm,0.0,1.0,0.0
+Bulgaria,Wildfire,0.0,1.0,0.0
+Burkina Faso,Drought,0.8,0.2,0.0
+Burkina Faso,Flood,0.0,0.29,0.71
+Burundi,Drought,0.2,0.4,0.4
+Burundi,Earthquake,0.0,1.0,0.0
+Burundi,Flood,0.0,0.64,0.36
+Burundi,Storm,0.0,1.0,0.0
+Cabo Verde,Drought,0.0,0.0,1.0
+Cabo Verde,Flood,0.0,0.5,0.5
+Cabo Verde,Storm,0.0,1.0,0.0
+Cambodia,Drought,0.75,0.0,0.25
+Cambodia,Flood,0.35,0.41,0.24
+Cambodia,Storm,0.25,0.5,0.25
+Cameroon,Drought,0.33,0.67,0.0
+Cameroon,Flood,0.0,0.36,0.64
+Canada,Extreme temperature,0.0,0.0,1.0
+Canada,Flood,0.0,0.95,0.05
+Canada,Storm,0.0,1.0,0.0
+Canada,Wildfire,0.0,0.5,0.5
+Canary Islands,Extreme temperature,0.0,1.0,0.0
+Canary Islands,Flood,0.0,1.0,0.0
+Canary Islands,Storm,0.0,1.0,0.0
+Cayman Islands,Storm,0.0,1.0,0.0
+Central African Republic,Drought,1.0,0.0,0.0
+Central African Republic,Flood,0.0,0.54,0.46
+Central African Republic,Wildfire,0.0,0.0,1.0
+Chad,Drought,1.0,0.0,0.0
+Chad,Flood,0.18,0.18,0.64
+Chile,Earthquake,0.38,0.25,0.38
+Chile,Flood,0.0,0.58,0.42
+Chile,Wildfire,0.0,0.67,0.33
+China,Drought,0.82,0.18,0.0
+China,Earthquake,0.54,0.08,0.38
+China,Extreme temperature,0.0,0.75,0.25
+China,Flood,0.56,0.12,0.31
+China,Storm,0.4,0.18,0.42
+"China, Hong Kong Special Administrative Region",Flood,0.0,1.0,0.0
+"China, Hong Kong Special Administrative Region",Storm,0.0,1.0,0.0
+"China, Macao Special Administrative Region",Storm,0.0,1.0,0.0
+Colombia,Drought,0.0,1.0,0.0
+Colombia,Earthquake,0.0,0.83,0.17
+Colombia,Flood,0.19,0.29,0.52
+Colombia,Storm,0.0,0.67,0.33
+Colombia,Wildfire,0.0,1.0,0.0
+Comoros,Earthquake,0.0,1.0,0.0
+Comoros,Flood,0.0,0.5,0.5
+Comoros,Storm,0.0,0.5,0.5
+Congo,Flood,0.0,0.09,0.91
+Cook Islands,Storm,0.0,1.0,0.0
+Costa Rica,Drought,0.0,1.0,0.0
+Costa Rica,Earthquake,0.0,0.75,0.25
+Costa Rica,Flood,0.0,0.54,0.46
+Costa Rica,Storm,0.0,0.33,0.67
+Croatia,Drought,0.0,1.0,0.0
+Croatia,Earthquake,0.0,0.0,1.0
+Croatia,Extreme temperature,0.0,0.25,0.75
+Croatia,Flood,0.0,1.0,0.0
+Croatia,Storm,0.0,1.0,0.0
+Cuba,Drought,0.0,0.67,0.33
+Cuba,Flood,0.0,0.91,0.09
+Cuba,Storm,0.38,0.31,0.31
+Cyprus,Drought,0.0,1.0,0.0
+Cyprus,Extreme temperature,0.0,0.5,0.5
+Cyprus,Storm,0.0,1.0,0.0
+Czechia,Extreme temperature,0.0,0.0,1.0
+Czechia,Flood,0.09,0.82,0.09
+Czechia,Storm,0.0,1.0,0.0
+Côte d’Ivoire,Flood,0.0,0.91,0.09
+Democratic People's Republic of Korea,Drought,1.0,0.0,0.0
+Democratic People's Republic of Korea,Extreme temperature,0.0,1.0,0.0
+Democratic People's Republic of Korea,Flood,0.33,0.22,0.44
+Democratic People's Republic of Korea,Storm,0.25,0.38,0.38
+Democratic Republic of the Congo,Drought,1.0,0.0,0.0
+Democratic Republic of the Congo,Earthquake,0.0,1.0,0.0
+Democratic Republic of the Congo,Flood,0.05,0.43,0.52
+Democratic Republic of the Congo,Storm,0.0,0.33,0.67
+Denmark,Extreme temperature,0.0,0.0,1.0
+Djibouti,Drought,0.0,0.0,1.0
+Djibouti,Flood,0.0,0.0,1.0
+Djibouti,Storm,0.0,0.0,1.0
+Dominica,Earthquake,0.0,1.0,0.0
+Dominica,Storm,0.0,0.5,0.5
+Dominican Republic,Earthquake,0.0,1.0,0.0
+Dominican Republic,Flood,0.05,0.71,0.24
+Dominican Republic,Storm,0.06,0.59,0.35
+Ecuador,Drought,0.0,0.5,0.5
+Ecuador,Earthquake,0.0,0.6,0.4
+Ecuador,Flood,0.0,0.65,0.35
+Egypt,Earthquake,0.0,1.0,0.0
+Egypt,Extreme temperature,0.0,0.0,1.0
+Egypt,Flood,0.0,1.0,0.0
+Egypt,Storm,0.0,0.5,0.5
+El Salvador,Drought,0.25,0.25,0.5
+El Salvador,Earthquake,0.2,0.8,0.0
+El Salvador,Flood,0.0,0.9,0.1
+El Salvador,Storm,0.0,0.7,0.3
+Eritrea,Drought,1.0,0.0,0.0
+Eritrea,Flood,0.0,1.0,0.0
+Estonia,Extreme temperature,0.0,0.0,1.0
+Eswatini,Drought,0.5,0.0,0.5
+Eswatini,Flood,0.0,0.67,0.33
+Eswatini,Storm,0.0,1.0,0.0
+Ethiopia,Drought,1.0,0.0,0.0
+Ethiopia,Flood,0.12,0.17,0.71
+Fiji,Drought,0.0,0.0,1.0
+Fiji,Flood,0.0,1.0,0.0
+Fiji,Storm,0.07,0.47,0.47
+Finland,Extreme temperature,0.0,0.0,1.0
+Finland,Flood,0.0,1.0,0.0
+France,Drought,0.0,1.0,0.0
+France,Earthquake,0.0,1.0,0.0
+France,Extreme temperature,0.88,0.12,0.0
+France,Flood,0.0,0.96,0.04
+France,Storm,0.0,1.0,0.0
+France,Wildfire,0.0,1.0,0.0
+French Guiana,Flood,0.0,1.0,0.0
+French Polynesia,Flood,0.0,1.0,0.0
+French Polynesia,Storm,0.0,1.0,0.0
+Gabon,Flood,0.0,0.0,1.0
+Gabon,Storm,0.0,1.0,0.0
+Gambia,Drought,0.0,0.33,0.67
+Gambia,Flood,0.0,0.88,0.12
+Georgia,Drought,1.0,0.0,0.0
+Georgia,Earthquake,0.0,1.0,0.0
+Georgia,Flood,0.0,0.8,0.2
+Georgia,Storm,0.0,0.0,1.0
+Germany,Earthquake,0.0,1.0,0.0
+Germany,Extreme temperature,0.5,0.5,0.0
+Germany,Flood,0.0,0.8,0.2
+Germany,Storm,0.0,1.0,0.0
+Ghana,Flood,0.06,0.33,0.61
+Greece,Earthquake,0.0,0.75,0.25
+Greece,Extreme temperature,0.5,0.5,0.0
+Greece,Flood,0.0,1.0,0.0
+Greece,Storm,0.0,1.0,0.0
+Greece,Wildfire,0.0,0.0,1.0
+Grenada,Drought,0.0,1.0,0.0
+Grenada,Storm,0.0,0.5,0.5
+Guadeloupe,Earthquake,0.0,1.0,0.0
+Guadeloupe,Storm,0.0,0.67,0.33
+Guam,Storm,0.0,0.33,0.67
+Guatemala,Drought,0.6,0.0,0.4
+Guatemala,Earthquake,0.14,0.57,0.29
+Guatemala,Flood,0.16,0.47,0.37
+Guatemala,Storm,0.25,0.58,0.17
+Guinea,Flood,0.0,0.36,0.64
+Guinea-Bissau,Drought,0.0,0.0,1.0
+Guinea-Bissau,Flood,0.0,0.75,0.25
+Guyana,Drought,0.0,1.0,0.0
+Guyana,Flood,0.0,0.29,0.71
+Haiti,Drought,0.67,0.0,0.33
+Haiti,Earthquake,0.5,0.25,0.25
+Haiti,Flood,0.03,0.48,0.48
+Haiti,Storm,0.13,0.47,0.4
+Honduras,Drought,0.11,0.22,0.67
+Honduras,Earthquake,0.0,0.5,0.5
+Honduras,Flood,0.06,0.61,0.33
+Honduras,Storm,0.1,0.5,0.4
+Honduras,Wildfire,0.0,1.0,0.0
+Hungary,Drought,0.0,1.0,0.0
+Hungary,Earthquake,0.0,1.0,0.0
+Hungary,Extreme temperature,0.0,0.0,1.0
+Hungary,Flood,0.0,0.8,0.2
+Hungary,Storm,0.0,1.0,0.0
+Iceland,Earthquake,0.0,1.0,0.0
+Iceland,Extreme temperature,0.0,1.0,0.0
+India,Drought,0.8,0.2,0.0
+India,Earthquake,0.44,0.33,0.22
+India,Extreme temperature,0.14,0.14,0.71
+India,Flood,0.73,0.14,0.12
+India,Storm,0.32,0.29,0.39
+Indonesia,Drought,0.33,0.67,0.0
+Indonesia,Earthquake,0.24,0.41,0.34
+Indonesia,Flood,0.16,0.24,0.59
+Indonesia,Storm,0.25,0.75,0.0
+Indonesia,Wildfire,0.0,1.0,0.0
+Iran (Islamic Republic of),Drought,1.0,0.0,0.0
+Iran (Islamic Republic of),Earthquake,0.05,0.35,0.6
+Iran (Islamic Republic of),Flood,0.09,0.5,0.41
+Iran (Islamic Republic of),Storm,0.0,0.5,0.5
+Iraq,Drought,1.0,0.0,0.0
+Iraq,Earthquake,0.0,1.0,0.0
+Iraq,Flood,0.0,0.77,0.23
+Iraq,Storm,0.0,0.5,0.5
+Ireland,Extreme temperature,0.0,0.5,0.5
+Ireland,Flood,0.0,1.0,0.0
+Israel,Extreme temperature,0.0,1.0,0.0
+Israel,Flood,0.0,1.0,0.0
+Israel,Storm,0.0,1.0,0.0
+Israel,Wildfire,0.0,1.0,0.0
+Italy,Drought,0.0,1.0,0.0
+Italy,Earthquake,0.17,0.33,0.5
+Italy,Extreme temperature,0.43,0.57,0.0
+Italy,Flood,0.0,0.89,0.11
+Italy,Storm,0.0,1.0,0.0
+Italy,Wildfire,0.0,1.0,0.0
+Jamaica,Drought,0.0,0.5,0.5
+Jamaica,Flood,0.0,0.5,0.5
+Jamaica,Storm,0.0,0.56,0.44
+Japan,Earthquake,0.06,0.61,0.33
+Japan,Extreme temperature,0.54,0.31,0.15
+Japan,Flood,0.05,0.64,0.32
+Japan,Storm,0.04,0.48,0.48
+Jordan,Drought,0.0,0.0,1.0
+Jordan,Extreme temperature,0.0,1.0,0.0
+Jordan,Flood,0.0,1.0,0.0
+Kazakhstan,Drought,0.0,0.0,1.0
+Kazakhstan,Earthquake,0.0,0.0,1.0
+Kazakhstan,Flood,0.0,0.69,0.31
+Kazakhstan,Wildfire,0.0,1.0,0.0
+Kenya,Drought,1.0,0.0,0.0
+Kenya,Earthquake,0.0,1.0,0.0
+Kenya,Flood,0.11,0.32,0.57
+Kiribati,Flood,0.0,1.0,0.0
+Kiribati,Storm,0.0,1.0,0.0
+Kuwait,Flood,0.0,1.0,0.0
+Kyrgyzstan,Drought,1.0,0.0,0.0
+Kyrgyzstan,Earthquake,0.0,0.6,0.4
+Kyrgyzstan,Extreme temperature,0.0,1.0,0.0
+Kyrgyzstan,Flood,0.0,1.0,0.0
+Lao People's Democratic Republic,Drought,0.0,1.0,0.0
+Lao People's Democratic Republic,Earthquake,0.0,1.0,0.0
+Lao People's Democratic Republic,Flood,0.27,0.13,0.6
+Lao People's Democratic Republic,Storm,0.2,0.2,0.6
+Latvia,Extreme temperature,0.0,0.0,1.0
+Latvia,Flood,0.0,1.0,0.0
+Lebanon,Flood,0.0,1.0,0.0
+Lebanon,Storm,0.0,1.0,0.0
+Lebanon,Wildfire,0.0,1.0,0.0
+Lesotho,Drought,0.86,0.0,0.14
+Lesotho,Flood,0.0,1.0,0.0
+Lesotho,Storm,0.0,1.0,0.0
+Liberia,Flood,0.0,1.0,0.0
+Libya,Flood,0.0,1.0,0.0
+Liechtenstein,Extreme temperature,0.0,1.0,0.0
+Lithuania,Drought,0.0,1.0,0.0
+Lithuania,Extreme temperature,0.0,0.0,1.0
+Lithuania,Flood,0.0,1.0,0.0
+Luxembourg,Extreme temperature,0.0,0.67,0.33
+Luxembourg,Flood,0.0,1.0,0.0
+Luxembourg,Storm,0.0,1.0,0.0
+Madagascar,Drought,0.62,0.25,0.12
+Madagascar,Flood,0.0,0.25,0.75
+Madagascar,Storm,0.23,0.18,0.59
+Malawi,Drought,1.0,0.0,0.0
+Malawi,Earthquake,0.0,0.0,1.0
+Malawi,Flood,0.12,0.46,0.42
+Malawi,Storm,0.5,0.5,0.0
+Malaysia,Drought,1.0,0.0,0.0
+Malaysia,Earthquake,0.0,0.5,0.5
+Malaysia,Flood,0.0,0.6,0.4
+Malaysia,Storm,0.0,1.0,0.0
+Maldives,Earthquake,0.0,0.0,1.0
+Maldives,Flood,0.0,1.0,0.0
+Maldives,Storm,0.0,1.0,0.0
+Mali,Drought,0.71,0.14,0.14
+Mali,Flood,0.0,0.63,0.37
+Malta,Extreme temperature,0.0,0.0,1.0
+Marshall Islands,Drought,0.0,1.0,0.0
+Marshall Islands,Flood,0.0,1.0,0.0
+Marshall Islands,Storm,0.0,1.0,0.0
+Martinique,Earthquake,0.0,1.0,0.0
+Martinique,Storm,0.0,1.0,0.0
+Mauritania,Drought,0.83,0.0,0.17
+Mauritania,Flood,0.0,0.5,0.5
+Mauritius,Flood,0.0,1.0,0.0
+Mauritius,Storm,0.0,0.8,0.2
+Mexico,Drought,0.5,0.5,0.0
+Mexico,Earthquake,0.1,0.3,0.6
+Mexico,Flood,0.06,0.66,0.28
+Mexico,Storm,0.25,0.42,0.33
+Micronesia (Federated States of),Drought,0.0,0.0,1.0
+Micronesia (Federated States of),Flood,0.0,1.0,0.0
+Micronesia (Federated States of),Storm,0.0,0.8,0.2
+Mongolia,Drought,1.0,0.0,0.0
+Mongolia,Flood,0.0,0.8,0.2
+Mongolia,Storm,0.0,1.0,0.0
+Montenegro,Extreme temperature,0.0,1.0,0.0
+Montenegro,Flood,0.0,1.0,0.0
+Morocco,Earthquake,0.5,0.0,0.5
+Morocco,Extreme temperature,0.0,1.0,0.0
+Morocco,Flood,0.0,0.88,0.12
+Morocco,Storm,0.0,1.0,0.0
+Mozambique,Drought,0.82,0.0,0.18
+Mozambique,Earthquake,0.0,1.0,0.0
+Mozambique,Flood,0.12,0.25,0.62
+Mozambique,Storm,0.42,0.17,0.42
+Mozambique,Wildfire,0.0,0.0,1.0
+Myanmar,Earthquake,0.0,0.5,0.5
+Myanmar,Extreme temperature,0.0,0.0,1.0
+Myanmar,Flood,0.12,0.12,0.76
+Myanmar,Storm,0.22,0.22,0.56
+Namibia,Drought,0.6,0.2,0.2
+Namibia,Flood,0.07,0.67,0.27
+Nepal,Drought,0.0,0.0,1.0
+Nepal,Earthquake,0.25,0.0,0.75
+Nepal,Flood,0.12,0.24,0.64
+Netherlands (Kingdom of the),Extreme temperature,0.0,0.0,1.0
+Netherlands (Kingdom of the),Flood,0.0,1.0,0.0
+Netherlands (Kingdom of the),Storm,0.0,1.0,0.0
+New Caledonia,Storm,0.0,1.0,0.0
+New Zealand,Drought,0.0,1.0,0.0
+New Zealand,Earthquake,0.0,0.5,0.5
+New Zealand,Extreme temperature,0.0,1.0,0.0
+New Zealand,Flood,0.0,1.0,0.0
+New Zealand,Storm,0.0,1.0,0.0
+Nicaragua,Drought,0.25,0.25,0.5
+Nicaragua,Earthquake,0.0,0.5,0.5
+Nicaragua,Flood,0.0,0.54,0.46
+Nicaragua,Storm,0.08,0.46,0.46
+Niger,Drought,1.0,0.0,0.0
+Niger,Flood,0.09,0.13,0.78
+Nigeria,Drought,1.0,0.0,0.0
+Nigeria,Extreme temperature,0.0,0.0,1.0
+Nigeria,Flood,0.13,0.33,0.53
+Nigeria,Storm,0.0,1.0,0.0
+Niue,Storm,0.0,1.0,0.0
+North Macedonia,Earthquake,0.0,1.0,0.0
+North Macedonia,Extreme temperature,0.0,1.0,0.0
+North Macedonia,Flood,0.0,0.67,0.33
+Northern Mariana Islands,Storm,0.0,1.0,0.0
+Norway,Extreme temperature,0.0,1.0,0.0
+Norway,Flood,0.0,1.0,0.0
+Norway,Storm,0.0,1.0,0.0
+Oman,Flood,0.0,1.0,0.0
+Oman,Storm,0.0,0.83,0.17
+Pakistan,Drought,1.0,0.0,0.0
+Pakistan,Earthquake,0.23,0.38,0.38
+Pakistan,Extreme temperature,0.1,0.3,0.6
+Pakistan,Flood,0.23,0.28,0.49
+Pakistan,Storm,0.14,0.86,0.0
+Palau,Drought,0.0,1.0,0.0
+Palau,Storm,0.0,1.0,0.0
+Panama,Drought,0.0,1.0,0.0
+Panama,Earthquake,0.0,1.0,0.0
+Panama,Flood,0.0,0.8,0.2
+Panama,Storm,0.0,0.67,0.33
+Panama,Wildfire,0.0,1.0,0.0
+Papua New Guinea,Drought,1.0,0.0,0.0
+Papua New Guinea,Earthquake,0.12,0.75,0.12
+Papua New Guinea,Flood,0.0,0.54,0.46
+Papua New Guinea,Storm,0.0,0.75,0.25
+Paraguay,Drought,0.17,0.33,0.5
+Paraguay,Flood,0.0,0.38,0.62
+Paraguay,Storm,0.0,0.33,0.67
+Peru,Drought,0.0,1.0,0.0
+Peru,Earthquake,0.14,0.86,0.0
+Peru,Flood,0.16,0.44,0.4
+Peru,Storm,0.0,0.0,1.0
+Philippines,Drought,0.0,0.75,0.25
+Philippines,Earthquake,0.36,0.36,0.27
+Philippines,Flood,0.33,0.28,0.4
+Philippines,Storm,0.85,0.08,0.08
+Poland,Drought,0.0,1.0,0.0
+Poland,Extreme temperature,0.0,0.0,1.0
+Poland,Flood,0.0,0.9,0.1
+Poland,Storm,0.0,1.0,0.0
+Portugal,Drought,0.0,1.0,0.0
+Portugal,Extreme temperature,0.5,0.33,0.17
+Portugal,Flood,0.0,1.0,0.0
+Portugal,Storm,0.0,1.0,0.0
+Portugal,Wildfire,0.0,1.0,0.0
+Puerto Rico,Earthquake,0.0,1.0,0.0
+Puerto Rico,Flood,0.0,1.0,0.0
+Puerto Rico,Storm,0.11,0.89,0.0
+Qatar,Flood,0.0,1.0,0.0
+Republic of Korea,Drought,0.0,1.0,0.0
+Republic of Korea,Earthquake,0.0,0.5,0.5
+Republic of Korea,Extreme temperature,0.0,1.0,0.0
+Republic of Korea,Flood,0.0,0.79,0.21
+Republic of Korea,Storm,0.0,0.67,0.33
+Republic of Korea,Wildfire,0.0,1.0,0.0
+Republic of Moldova,Drought,0.0,0.67,0.33
+Republic of Moldova,Flood,0.0,1.0,0.0
+Romania,Drought,0.0,1.0,0.0
+Romania,Extreme temperature,0.29,0.71,0.0
+Romania,Flood,0.0,0.85,0.15
+Romania,Storm,0.0,1.0,0.0
+Russian Federation,Drought,0.33,0.67,0.0
+Russian Federation,Earthquake,0.0,0.67,0.33
+Russian Federation,Extreme temperature,0.5,0.0,0.5
+Russian Federation,Flood,0.0,0.54,0.46
+Russian Federation,Storm,0.0,1.0,0.0
+Rwanda,Drought,1.0,0.0,0.0
+Rwanda,Earthquake,0.0,1.0,0.0
+Rwanda,Flood,0.0,0.67,0.33
+Réunion,Storm,0.0,0.86,0.14
+Saint Barthélemy,Storm,0.0,1.0,0.0
+Saint Kitts and Nevis,Storm,0.0,1.0,0.0
+Saint Lucia,Drought,0.0,1.0,0.0
+Saint Lucia,Earthquake,0.0,1.0,0.0
+Saint Lucia,Flood,0.0,1.0,0.0
+Saint Lucia,Storm,0.0,0.6,0.4
+Saint Martin (French Part),Storm,0.0,1.0,0.0
+Saint Vincent and the Grenadines,Drought,0.0,1.0,0.0
+Saint Vincent and the Grenadines,Flood,0.0,0.67,0.33
+Saint Vincent and the Grenadines,Storm,0.0,1.0,0.0
+Samoa,Drought,0.0,1.0,0.0
+Samoa,Earthquake,0.0,0.0,1.0
+Samoa,Flood,0.0,1.0,0.0
+Samoa,Storm,0.0,1.0,0.0
+Sao Tome and Principe,Flood,0.0,0.0,1.0
+Saudi Arabia,Flood,0.0,0.88,0.12
+Senegal,Drought,0.5,0.0,0.5
+Senegal,Flood,0.0,0.43,0.57
+Serbia,Earthquake,0.0,0.0,1.0
+Serbia,Extreme temperature,0.0,0.33,0.67
+Serbia,Flood,0.0,0.93,0.07
+Serbia Montenegro,Earthquake,0.0,1.0,0.0
+Serbia Montenegro,Extreme temperature,0.0,1.0,0.0
+Serbia Montenegro,Flood,0.0,0.75,0.25
+Seychelles,Earthquake,0.0,1.0,0.0
+Seychelles,Flood,0.0,1.0,0.0
+Seychelles,Storm,0.0,1.0,0.0
+Sierra Leone,Flood,0.0,0.8,0.2
+Sierra Leone,Wildfire,0.0,1.0,0.0
+Sint Maarten (Dutch part),Storm,0.0,1.0,0.0
+Slovakia,Extreme temperature,0.0,0.5,0.5
+Slovakia,Flood,0.0,1.0,0.0
+Slovenia,Earthquake,0.0,1.0,0.0
+Slovenia,Extreme temperature,0.0,0.0,1.0
+Slovenia,Flood,0.2,0.8,0.0
+Solomon Islands,Drought,0.0,1.0,0.0
+Solomon Islands,Earthquake,0.0,1.0,0.0
+Solomon Islands,Flood,0.0,0.8,0.2
+Solomon Islands,Storm,0.0,0.62,0.38
+Somalia,Drought,0.8,0.1,0.1
+Somalia,Earthquake,0.0,0.0,1.0
+Somalia,Flood,0.3,0.44,0.26
+Somalia,Storm,0.0,0.2,0.8
+South Africa,Drought,0.8,0.2,0.0
+South Africa,Earthquake,0.0,1.0,0.0
+South Africa,Extreme temperature,0.0,1.0,0.0
+South Africa,Flood,0.0,0.57,0.43
+South Africa,Storm,0.0,0.91,0.09
+South Africa,Wildfire,0.0,0.0,1.0
+South Sudan,Drought,1.0,0.0,0.0
+South Sudan,Flood,0.5,0.1,0.4
+South Sudan,Wildfire,0.0,1.0,0.0
+Spain,Drought,0.0,0.0,1.0
+Spain,Earthquake,0.0,0.0,1.0
+Spain,Extreme temperature,0.43,0.57,0.0
+Spain,Flood,0.0,1.0,0.0
+Spain,Wildfire,0.0,1.0,0.0
+Sri Lanka,Drought,0.8,0.0,0.2
+Sri Lanka,Earthquake,1.0,0.0,0.0
+Sri Lanka,Flood,0.29,0.1,0.61
+Sri Lanka,Storm,0.11,0.44,0.44
+State of Palestine,Flood,0.0,1.0,0.0
+Sudan,Drought,1.0,0.0,0.0
+Sudan,Extreme temperature,0.0,1.0,0.0
+Sudan,Flood,0.18,0.09,0.73
+Sudan,Storm,0.0,1.0,0.0
+Suriname,Flood,0.0,0.75,0.25
+Sweden,Extreme temperature,0.0,1.0,0.0
+Sweden,Flood,0.0,1.0,0.0
+Switzerland,Extreme temperature,0.0,0.0,1.0
+Switzerland,Flood,0.0,1.0,0.0
+Switzerland,Storm,0.0,1.0,0.0
+Syrian Arab Republic,Drought,1.0,0.0,0.0
+Syrian Arab Republic,Earthquake,1.0,0.0,0.0
+Syrian Arab Republic,Flood,0.0,0.5,0.5
+Syrian Arab Republic,Storm,0.0,0.5,0.5
+Syrian Arab Republic,Wildfire,0.0,0.0,1.0
+Taiwan (Province of China),Earthquake,0.0,0.71,0.29
+Taiwan (Province of China),Flood,0.0,0.75,0.25
+Taiwan (Province of China),Storm,0.09,0.77,0.14
+Tajikistan,Drought,1.0,0.0,0.0
+Tajikistan,Earthquake,0.0,1.0,0.0
+Tajikistan,Flood,0.0,0.87,0.13
+Thailand,Drought,0.5,0.5,0.0
+Thailand,Earthquake,0.33,0.67,0.0
+Thailand,Flood,0.54,0.14,0.31
+Thailand,Storm,0.15,0.46,0.38
+Timor-Leste,Drought,0.0,0.5,0.5
+Timor-Leste,Earthquake,0.0,1.0,0.0
+Timor-Leste,Flood,0.0,1.0,0.0
+Timor-Leste,Storm,0.0,0.0,1.0
+Togo,Flood,0.0,0.5,0.5
+Tokelau,Storm,0.0,1.0,0.0
+Tonga,Drought,0.0,1.0,0.0
+Tonga,Earthquake,0.0,1.0,0.0
+Tonga,Storm,0.0,0.71,0.29
+Trinidad and Tobago,Drought,0.0,1.0,0.0
+Trinidad and Tobago,Flood,0.0,0.0,1.0
+Trinidad and Tobago,Storm,0.0,1.0,0.0
+Tunisia,Flood,0.0,0.62,0.38
+Turkmenistan,Earthquake,0.0,1.0,0.0
+Turks and Caicos Islands,Storm,0.0,1.0,0.0
+Tuvalu,Drought,0.0,1.0,0.0
+Tuvalu,Storm,0.0,1.0,0.0
+Türkiye,Earthquake,0.07,0.5,0.43
+Türkiye,Extreme temperature,0.0,1.0,0.0
+Türkiye,Flood,0.0,0.81,0.19
+Türkiye,Storm,0.0,1.0,0.0
+Uganda,Drought,1.0,0.0,0.0
+Uganda,Earthquake,0.0,1.0,0.0
+Uganda,Flood,0.04,0.52,0.43
+Uganda,Storm,0.0,1.0,0.0
+Ukraine,Drought,0.0,1.0,0.0
+Ukraine,Flood,0.0,0.6,0.4
+United Arab Emirates,Flood,0.0,1.0,0.0
+United Kingdom of Great Britain and Northern Ireland,Drought,0.0,1.0,0.0
+United Kingdom of Great Britain and Northern Ireland,Earthquake,0.0,1.0,0.0
+United Kingdom of Great Britain and Northern Ireland,Extreme temperature,0.43,0.0,0.57
+United Kingdom of Great Britain and Northern Ireland,Flood,0.0,0.89,0.11
+United Republic of Tanzania,Drought,0.8,0.0,0.2
+United Republic of Tanzania,Earthquake,0.0,0.83,0.17
+United Republic of Tanzania,Flood,0.04,0.6,0.36
+United Republic of Tanzania,Storm,0.5,0.5,0.0
+United States Virgin Islands,Storm,0.0,1.0,0.0
+United States of America,Drought,0.0,0.85,0.15
+United States of America,Earthquake,0.0,0.9,0.1
+United States of America,Extreme temperature,0.0,0.56,0.44
+United States of America,Flood,0.02,0.77,0.21
+United States of America,Storm,0.09,0.66,0.25
+United States of America,Wildfire,0.0,0.7,0.3
+Uruguay,Drought,0.0,0.0,1.0
+Uruguay,Flood,0.0,0.86,0.14
+Uzbekistan,Drought,1.0,0.0,0.0
+Uzbekistan,Earthquake,0.0,1.0,0.0
+Uzbekistan,Flood,0.0,0.67,0.33
+Vanuatu,Earthquake,0.0,1.0,0.0
+Vanuatu,Flood,0.0,1.0,0.0
+Vanuatu,Storm,0.12,0.38,0.5
+Venezuela (Bolivarian Republic of),Drought,0.0,1.0,0.0
+Venezuela (Bolivarian Republic of),Flood,0.05,0.67,0.29
+Venezuela (Bolivarian Republic of),Storm,0.0,1.0,0.0
+Viet Nam,Drought,0.75,0.0,0.25
+Viet Nam,Flood,0.29,0.32,0.39
+Viet Nam,Storm,0.32,0.25,0.43
+Wallis and Futuna Islands,Storm,0.0,1.0,0.0
+Yemen,Flood,0.0,0.54,0.46
+Yemen,Storm,0.0,0.33,0.67
+Zambia,Drought,1.0,0.0,0.0
+Zambia,Flood,0.24,0.53,0.24
+Zimbabwe,Drought,0.83,0.0,0.17
+Zimbabwe,Flood,0.09,0.73,0.18
+Zimbabwe,Storm,0.0,0.78,0.22
