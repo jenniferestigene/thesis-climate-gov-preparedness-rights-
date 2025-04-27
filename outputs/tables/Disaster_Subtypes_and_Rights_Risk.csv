@@ -1,0 +1,15 @@
+Rights_Violation_Risk,Disaster Type,Disaster Subtype,Event Count
+High,Flood,Riverine flood,1149
+High,Flood,Flood (General),701
+High,Storm,Tropical cyclone,653
+High,Flood,Flash flood,510
+High,Drought,Drought,391
+High,Earthquake,Ground movement,357
+High,Flood,Coastal flood,34
+High,Earthquake,Tsunami,29
+Low,Storm,Hail,42
+Low-Medium,Storm,Lightning/Thunderstorms,118
+Medium,Extreme temperature,Heat wave,216
+Medium,Storm,Tornado,80
+Medium,Storm,Sand/Dust storm,14
+Medium-High,Wildfire,Wildfire (General),48

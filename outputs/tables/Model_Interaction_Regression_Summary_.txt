@@ -1,0 +1,36 @@
+                               OLS Regression Results                              
+===================================================================================
+Dep. Variable:     Log_Rights_Per_Disaster   R-squared:                       0.372
+Model:                                 OLS   Adj. R-squared:                  0.341
+Method:                      Least Squares   F-statistic:                     12.02
+Date:                     Sun, 27 Apr 2025   Prob (F-statistic):           3.11e-16
+Time:                             20:55:41   Log-Likelihood:                 248.94
+No. Observations:                      214   AIC:                            -475.9
+Df Residuals:                          203   BIC:                            -438.9
+Df Model:                               10                                         
+Covariance Type:                 nonrobust                                         
+================================================================================================================
+                                                   coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------
+Intercept                                        1.5952      0.052     30.822      0.000       1.493       1.697
+C(Region)[T.Americas]                           -0.1531      0.133     -1.152      0.251      -0.415       0.109
+C(Region)[T.Asia]                                0.0421      0.077      0.547      0.585      -0.110       0.194
+C(Region)[T.Europe]                             -0.3861      0.092     -4.196      0.000      -0.568      -0.205
+C(Region)[T.Oceania]                             0.1488      0.320      0.464      0.643      -0.483       0.781
+Avg_Preparedness_Score                           0.0760      0.031      2.432      0.016       0.014       0.138
+Avg_Preparedness_Score:C(Region)[T.Americas]     0.0877      0.073      1.195      0.234      -0.057       0.232
+Avg_Preparedness_Score:C(Region)[T.Asia]        -0.0433      0.046     -0.935      0.351      -0.135       0.048
+Avg_Preparedness_Score:C(Region)[T.Europe]       0.1602      0.054      2.945      0.004       0.053       0.267
+Avg_Preparedness_Score:C(Region)[T.Oceania]     -0.0721      0.167     -0.432      0.666      -0.401       0.257
+Num_Disasters                                    0.0005      0.000      1.408      0.161      -0.000       0.001
+==============================================================================
+Omnibus:                      173.821   Durbin-Watson:                   0.945
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3278.516
+Skew:                          -2.951   Prob(JB):                         0.00
+Kurtosis:                      21.244   Cond. No.                     2.08e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.08e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

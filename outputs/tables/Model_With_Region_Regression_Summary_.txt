@@ -1,0 +1,30 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Rights_Per_Disaster   R-squared:                       0.347
+Model:                             OLS   Adj. R-squared:                  0.328
+Method:                  Least Squares   F-statistic:                     18.30
+Date:                 Sun, 27 Apr 2025   Prob (F-statistic):           5.08e-17
+Time:                         20:55:34   Log-Likelihood:                -101.32
+No. Observations:                  214   AIC:                             216.6
+Df Residuals:                      207   BIC:                             240.2
+Df Model:                            6                                         
+Covariance Type:             nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  3.6906      0.194     19.031      0.000       3.308       4.073
+C(Region)[T.Americas]      0.0024      0.084      0.029      0.977      -0.163       0.167
+C(Region)[T.Asia]         -0.1476      0.080     -1.837      0.068      -0.306       0.011
+C(Region)[T.Europe]       -0.6004      0.082     -7.282      0.000      -0.763      -0.438
+C(Region)[T.Oceania]       0.0203      0.105      0.193      0.848      -0.187       0.228
+Avg_Preparedness_Score     0.5472      0.109      5.023      0.000       0.332       0.762
+Num_Disasters              0.0034      0.001      2.372      0.019       0.001       0.006
+==============================================================================
+Omnibus:                      108.873   Durbin-Watson:                   0.793
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              728.633
+Skew:                          -1.862   Prob(JB):                    6.02e-159
+Kurtosis:                      11.237   Cond. No.                         251.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

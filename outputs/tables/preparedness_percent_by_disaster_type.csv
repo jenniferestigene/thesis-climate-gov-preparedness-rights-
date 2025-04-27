@@ -1,0 +1,7 @@
+Disaster Type,Not Prepared,Prepared,Somewhat Prepared
+Drought,0.37,0.38,0.26
+Earthquake,0.11,0.66,0.23
+Extreme temperature,0.19,0.39,0.43
+Flood,0.07,0.68,0.26
+Storm,0.1,0.67,0.23
+Wildfire,0.0,0.88,0.12

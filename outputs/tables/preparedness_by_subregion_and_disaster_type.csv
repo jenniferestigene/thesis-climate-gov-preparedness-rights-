@@ -1,0 +1,93 @@
+Subregion,Disaster Type,Not Prepared,Prepared,Somewhat Prepared
+Australia and New Zealand,Drought,0.0,4.0,0.0
+Australia and New Zealand,Earthquake,0.0,3.0,1.0
+Australia and New Zealand,Extreme temperature,0.0,3.0,1.0
+Australia and New Zealand,Flood,0.0,37.0,0.0
+Australia and New Zealand,Storm,0.0,26.0,0.0
+Australia and New Zealand,Wildfire,0.0,2.0,0.0
+Central Asia,Drought,0.0,5.0,0.0
+Central Asia,Earthquake,0.0,20.0,0.0
+Central Asia,Extreme temperature,0.0,1.0,0.0
+Central Asia,Flood,0.0,42.0,0.0
+Central Asia,Wildfire,0.0,1.0,0.0
+Eastern Asia,Drought,0.0,21.0,1.0
+Eastern Asia,Earthquake,2.0,36.0,13.0
+Eastern Asia,Extreme temperature,0.0,17.0,3.0
+Eastern Asia,Flood,1.0,80.0,36.0
+Eastern Asia,Storm,0.0,120.0,15.0
+Eastern Asia,Wildfire,0.0,2.0,0.0
+Eastern Europe,Drought,0.0,11.0,0.0
+Eastern Europe,Earthquake,0.0,9.0,0.0
+Eastern Europe,Extreme temperature,0.0,20.0,5.0
+Eastern Europe,Flood,0.0,119.0,2.0
+Eastern Europe,Storm,0.0,13.0,0.0
+Eastern Europe,Wildfire,0.0,2.0,0.0
+Latin America and the Caribbean,Drought,0.0,83.0,0.0
+Latin America and the Caribbean,Earthquake,1.0,70.0,7.0
+Latin America and the Caribbean,Extreme temperature,0.0,2.0,0.0
+Latin America and the Caribbean,Flood,0.0,422.0,24.0
+Latin America and the Caribbean,Storm,1.0,219.0,16.0
+Latin America and the Caribbean,Wildfire,0.0,9.0,0.0
+Melanesia,Drought,0.0,3.0,0.0
+Melanesia,Earthquake,0.0,12.0,1.0
+Melanesia,Flood,0.0,26.0,0.0
+Melanesia,Storm,0.0,36.0,1.0
+Micronesia,Drought,0.0,6.0,0.0
+Micronesia,Flood,0.0,5.0,0.0
+Micronesia,Storm,0.0,17.0,0.0
+Northern Africa,Drought,0.0,4.0,0.0
+Northern Africa,Earthquake,1.0,5.0,2.0
+Northern Africa,Extreme temperature,0.0,5.0,0.0
+Northern Africa,Flood,0.0,73.0,5.0
+Northern Africa,Storm,0.0,5.0,0.0
+Northern Africa,Wildfire,0.0,2.0,0.0
+Northern America,Drought,0.0,11.0,2.0
+Northern America,Earthquake,0.0,10.0,0.0
+Northern America,Extreme temperature,0.0,11.0,0.0
+Northern America,Flood,0.0,65.0,0.0
+Northern America,Storm,0.0,68.0,8.0
+Northern America,Wildfire,0.0,12.0,0.0
+Northern Europe,Drought,0.0,3.0,0.0
+Northern Europe,Earthquake,0.0,3.0,0.0
+Northern Europe,Extreme temperature,0.0,21.0,3.0
+Northern Europe,Flood,0.0,30.0,0.0
+Northern Europe,Storm,0.0,1.0,0.0
+Polynesia,Drought,0.0,4.0,0.0
+Polynesia,Earthquake,0.0,2.0,1.0
+Polynesia,Flood,0.0,3.0,0.0
+Polynesia,Storm,0.0,22.0,0.0
+South-eastern Asia,Drought,0.0,27.0,0.0
+South-eastern Asia,Earthquake,2.0,34.0,15.0
+South-eastern Asia,Extreme temperature,0.0,1.0,0.0
+South-eastern Asia,Flood,0.0,211.0,41.0
+South-eastern Asia,Storm,2.0,62.0,27.0
+South-eastern Asia,Wildfire,0.0,1.0,0.0
+Southern Asia,Drought,0.0,21.0,0.0
+Southern Asia,Earthquake,6.0,48.0,15.0
+Southern Asia,Extreme temperature,0.0,22.0,4.0
+Southern Asia,Flood,2.0,141.0,95.0
+Southern Asia,Storm,1.0,78.0,15.0
+Southern Europe,Drought,0.0,11.0,0.0
+Southern Europe,Earthquake,0.0,21.0,2.0
+Southern Europe,Extreme temperature,0.0,35.0,11.0
+Southern Europe,Flood,0.0,142.0,0.0
+Southern Europe,Storm,0.0,7.0,0.0
+Southern Europe,Wildfire,0.0,6.0,0.0
+Sub-Saharan Africa,Drought,0.0,161.0,4.0
+Sub-Saharan Africa,Earthquake,0.0,20.0,1.0
+Sub-Saharan Africa,Extreme temperature,0.0,2.0,0.0
+Sub-Saharan Africa,Flood,0.0,580.0,42.0
+Sub-Saharan Africa,Storm,0.0,83.0,15.0
+Sub-Saharan Africa,Wildfire,0.0,6.0,0.0
+Western Asia,Drought,0.0,8.0,0.0
+Western Asia,Earthquake,1.0,15.0,4.0
+Western Asia,Extreme temperature,0.0,8.0,0.0
+Western Asia,Flood,0.0,110.0,3.0
+Western Asia,Storm,0.0,24.0,0.0
+Western Asia,Wildfire,0.0,3.0,0.0
+Western Europe,Drought,0.0,1.0,0.0
+Western Europe,Earthquake,0.0,3.0,0.0
+Western Europe,Extreme temperature,0.0,27.0,14.0
+Western Europe,Flood,0.0,55.0,2.0
+Western Europe,Storm,0.0,25.0,0.0
+Western Europe,Wildfire,0.0,2.0,0.0

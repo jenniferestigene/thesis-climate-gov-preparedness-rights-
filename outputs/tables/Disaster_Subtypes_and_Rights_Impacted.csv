@@ -1,0 +1,15 @@
+Rights_Violation_Risk,Disaster Type,Disaster Subtype,Rights_Impacted,Event Count
+High,Flood,Riverine flood,"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health",1149
+High,Flood,Flood (General),"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health",701
+High,Storm,Tropical cyclone,"Right to Life, Right to Shelter, Right to Aid, Right to Health, Right to Education",653
+High,Flood,Flash flood,"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health",510
+High,Drought,Drought,"Right to Food, Right to Water, Right to Health",391
+High,Earthquake,Ground movement,"Right to Life, Right to Shelter, Right to Aid, Right to Health",357
+High,Flood,Coastal flood,"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health",34
+High,Earthquake,Tsunami,"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health, Right to Education",29
+Low,Storm,Hail,Right to Health,42
+Low-Medium,Storm,Lightning/Thunderstorms,"Right to Life, Right to Health, Right to Shelter",118
+Medium,Extreme temperature,Heat wave,"Right to Life, Right to Health, Right to a Healthy Environment",216
+Medium,Storm,Tornado,"Right to Life, Right to Shelter, Right to Water, Right to Aid, Right to Health, Right to Education",80
+Medium,Storm,Sand/Dust storm,"Right to Health, Right to a Healthy Environment",14
+Medium-High,Wildfire,Wildfire (General),"Right to Life, Right to Shelter, Right to a Healthy Environment, Right to Health",48

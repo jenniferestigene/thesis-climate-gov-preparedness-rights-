@@ -1,0 +1,93 @@
+Subregion,Disaster Type,Disaster_Count
+Australia and New Zealand,Flood,37
+Australia and New Zealand,Storm,26
+Australia and New Zealand,Drought,4
+Australia and New Zealand,Earthquake,4
+Australia and New Zealand,Extreme temperature,4
+Australia and New Zealand,Wildfire,2
+Central Asia,Flood,42
+Central Asia,Earthquake,20
+Central Asia,Drought,5
+Central Asia,Extreme temperature,1
+Central Asia,Wildfire,1
+Eastern Asia,Storm,135
+Eastern Asia,Flood,117
+Eastern Asia,Earthquake,51
+Eastern Asia,Drought,22
+Eastern Asia,Extreme temperature,20
+Eastern Asia,Wildfire,2
+Eastern Europe,Flood,121
+Eastern Europe,Extreme temperature,25
+Eastern Europe,Storm,13
+Eastern Europe,Drought,11
+Eastern Europe,Earthquake,9
+Eastern Europe,Wildfire,2
+Latin America and the Caribbean,Flood,446
+Latin America and the Caribbean,Storm,236
+Latin America and the Caribbean,Drought,83
+Latin America and the Caribbean,Earthquake,78
+Latin America and the Caribbean,Wildfire,9
+Latin America and the Caribbean,Extreme temperature,2
+Melanesia,Storm,37
+Melanesia,Flood,26
+Melanesia,Earthquake,13
+Melanesia,Drought,3
+Micronesia,Storm,17
+Micronesia,Drought,6
+Micronesia,Flood,5
+Northern Africa,Flood,78
+Northern Africa,Earthquake,8
+Northern Africa,Extreme temperature,5
+Northern Africa,Storm,5
+Northern Africa,Drought,4
+Northern Africa,Wildfire,2
+Northern America,Storm,76
+Northern America,Flood,65
+Northern America,Drought,13
+Northern America,Wildfire,12
+Northern America,Extreme temperature,11
+Northern America,Earthquake,10
+Northern Europe,Flood,30
+Northern Europe,Extreme temperature,24
+Northern Europe,Drought,3
+Northern Europe,Earthquake,3
+Northern Europe,Storm,1
+Polynesia,Storm,22
+Polynesia,Drought,4
+Polynesia,Earthquake,3
+Polynesia,Flood,3
+South-eastern Asia,Flood,252
+South-eastern Asia,Storm,91
+South-eastern Asia,Earthquake,51
+South-eastern Asia,Drought,27
+South-eastern Asia,Extreme temperature,1
+South-eastern Asia,Wildfire,1
+Southern Asia,Flood,238
+Southern Asia,Storm,94
+Southern Asia,Earthquake,69
+Southern Asia,Extreme temperature,26
+Southern Asia,Drought,21
+Southern Europe,Flood,142
+Southern Europe,Extreme temperature,46
+Southern Europe,Earthquake,23
+Southern Europe,Drought,11
+Southern Europe,Storm,7
+Southern Europe,Wildfire,6
+Sub-Saharan Africa,Flood,622
+Sub-Saharan Africa,Drought,165
+Sub-Saharan Africa,Storm,98
+Sub-Saharan Africa,Earthquake,21
+Sub-Saharan Africa,Wildfire,6
+Sub-Saharan Africa,Extreme temperature,2
+Western Asia,Flood,113
+Western Asia,Storm,24
+Western Asia,Earthquake,20
+Western Asia,Drought,8
+Western Asia,Extreme temperature,8
+Western Asia,Wildfire,3
+Western Europe,Flood,57
+Western Europe,Extreme temperature,41
+Western Europe,Storm,25
+Western Europe,Earthquake,3
+Western Europe,Wildfire,2
+Western Europe,Drought,1

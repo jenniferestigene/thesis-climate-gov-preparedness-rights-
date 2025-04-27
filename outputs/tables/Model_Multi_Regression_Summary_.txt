@@ -1,0 +1,26 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Rights_Per_Disaster   R-squared:                       0.120
+Model:                             OLS   Adj. R-squared:                  0.112
+Method:                  Least Squares   F-statistic:                     14.39
+Date:                 Sun, 27 Apr 2025   Prob (F-statistic):           1.38e-06
+Time:                         20:55:23   Log-Likelihood:                -133.18
+No. Observations:                  214   AIC:                             272.4
+Df Residuals:                      211   BIC:                             282.5
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                  3.4111      0.215     15.887      0.000       2.988       3.834
+Avg_Preparedness_Score     0.6140      0.114      5.363      0.000       0.388       0.840
+Num_Disasters              0.0044      0.002      2.795      0.006       0.001       0.008
+==============================================================================
+Omnibus:                       80.279   Durbin-Watson:                   0.305
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              271.848
+Skew:                          -1.544   Prob(JB):                     9.31e-60
+Kurtosis:                       7.578   Cond. No.                         238.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
