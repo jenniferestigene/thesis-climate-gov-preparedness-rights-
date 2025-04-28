@@ -43,7 +43,7 @@ This notebook explores the human rights impacts of disaster events and how they 
 
 ---
 
-## ✅ Suggested Execution Order
+## Suggested Execution Order
 
 1. Run `THESIS_Government_Preparedness_Analysis.ipynb` first to prepare the classified dataset and all preparedness metrics.
 2. Then run `THESIS_Human_Rights_Protection_Analysis.ipynb` for the rights analysis, clustering, and regression steps.
