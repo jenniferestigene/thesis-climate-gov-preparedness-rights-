@@ -125,6 +125,43 @@ The thesis builds a preparedness scoring framework and evaluates climate disaste
 
 ---
 
+##  Results Summary
+
+This thesis presents a global, data-driven assessment of how effectively governments protect human rights during climate-related disasters. Covering over two decades (2000–2023), the study applies a classification framework, geospatial analysis, and regression models to evaluate government preparedness and its relationship to disaster outcomes and rights risks.
+
+This thesis focuses on eight fundamental human rights most at risk during climate-related disasters: the right to life, right to shelter, right to health, right to water, right to food, right to aid, right to education, and the right to a healthy environment.
+
+### Key Findings
+
+- **Over half of all disasters (52.1%)** were classified as “Prepared,” while **15.8%** were categorized as “Not Prepared.” However, preparedness levels varied dramatically by region and disaster type.
+
+- **Floods and earthquakes** were the most frequently well-managed disaster types. In contrast, **droughts and extreme temperatures** showed the highest rates of under-preparedness, highlighting major institutional gaps for slow-onset and climate-driven hazards.
+
+- **Sub-Saharan Africa and South Asia** recorded the highest frequencies of "Not Prepared" events, while Europe, Oceania, and parts of the Americas showed stronger preparedness overall.
+
+- **Human rights violations were widespread**:  
+  - Over **88% of disaster events** were associated with high-risk rights impacts.  
+  - The most frequently threatened rights were the **right to health, shelter, life, water, and aid**.  
+  - Disasters in Africa, Asia, and Latin America accounted for the majority of violations.
+
+- **Even high-preparedness countries (e.g., USA, China, India)** experienced substantial rights violations — suggesting that preparedness alone does not ensure rights protection and that structural, governance, and contextual factors also play critical roles.
+
+- **Regression models** showed:
+  - A statistically significant relationship between preparedness and human rights outcomes — but not always in the expected direction.
+  - In some regions, **higher preparedness scores were associated with more rights impacts**, possibly reflecting:
+    - Reporting bias
+    - Structural disaster intensity
+    - Gaps between institutional readiness and actual protection delivery
+
+- **Governance effectiveness was a key moderator**:  
+  Countries with lower governance scores were consistently less prepared and more rights-vulnerable. Europe was the only region where preparedness was reliably associated with fewer rights violations.
+
+### Conclusion
+
+Preparedness reduces disaster severity but is not sufficient to protect rights. Institutional capacity, governance quality, disaster type, and regional context all shape whether governments can fulfill their obligations to protect life, shelter, health, and dignity during climate emergencies. The thesis introduces a scalable classification model and rights-risk framework that can inform global monitoring and policy reform.
+
+---
+
 ## Repository Structure
 
 This repository is organized to clearly separate raw data, analysis workflows, and generated outputs for a transparent and fully reproducible thesis project.
@@ -147,3 +184,62 @@ This repository is organized to clearly separate raw data, analysis workflows, a
 
 This structure reflects the full research pipeline — from raw inputs to final outputs — and supports transparency, modularity, and reproducibility throughout the thesis project.
 
+---
+## How to Reproduce
+
+This repository is fully reproducible and structured for modular execution. To run the analysis locally, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/jenniferestigene/thesis-climate-gov-preparedness-rights-.git
+cd thesis-climate-gov-preparedness-rights-
+```
+
+### 2. Set Up the Python Environment
+Install required packages using:
+```bash
+pip install -r requirements.txt
+```
+
+> Python version used: 3.10+  
+> Ensure you have `jupyter` for working with the notebooks.
+
+---
+
+### 3. Add Data Files
+
+Place your data files in the following locations:
+
+- Raw EM-DAT and WGI files → `data/raw/`
+- Cleaned and merged data → `data/preprocessed/`
+
+Refer to the `/data/README.md` file for a detailed description of the expected datasets and formats.
+
+---
+
+### 4. Run the Analysis Notebooks
+
+In this order:
+
+1. `notebooks/THESIS_Government_Preparedness_Analysis.ipynb`  
+   - Classifies disaster events into preparedness levels  
+   - Exports metrics by country, region, year, and disaster type
+
+2. `notebooks/THESIS_Human_Rights_Protection_Analysis.ipynb`  
+   - Maps disaster subtypes to human rights  
+   - Explodes multi-right events  
+   - Applies clustering and performs regression  
+   - Generates heatmaps and normalized outputs
+
+---
+
+### 5. Outputs
+
+All generated outputs will be saved automatically to:
+
+- `outputs/figures/` → All maps, charts, and visualizations
+- `outputs/tables/` → All exported tables (classification, clustering, regression-ready data)
+
+---
+
+> For help interpreting results, see the “Results Summary” in the main `README.md`.
