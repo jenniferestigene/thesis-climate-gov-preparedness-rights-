@@ -1,6 +1,6 @@
 # Outputs
 
-This folder contains all final outputs generated from the thesis analysis notebooks. These are organized into two subdirectories based on output type:
+This folder contains all final outputs generated from the thesis analysis notebooks. These are organized into two subfolders based on output type:
 
 ---
 
