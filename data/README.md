@@ -1,6 +1,6 @@
 # Data
 
-This folder contains all datasets used for the thesis analysis. It is divided into two subdirectories:
+This folder contains all datasets used for the thesis analysis. It is divided into two subfolders:
 
 ---
 
